@@ -31,6 +31,6 @@ void wiki_visit(char *site,int num);
 int download(char *site,char *filename);
 void clean_tags(char *src,char *dest);
 //void filter_tag(char *src,char *dest,char *stag,char* etag);
-void filter_tag(int n,...);// has bugs need to debug
+void filter_tag(int n,...);// this is a a varargs function. The first 2 arguments correspond to the source and destination filenames. and int n corresponds to the number of arguments that need to be used.
 
 
